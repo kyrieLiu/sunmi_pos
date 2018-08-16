@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="PersonalPayBinding">
+
+        <import type="android.view.View"></import>
+
+        <variable
+            name="viewModel"
+            type="ys.app.petproject.viewmodel.PersonalPayModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/status_bar_height"
+            android:background="@color/white" />
+
+        <include
+            android:id="@+id/view_tool_bar"
+            layout="@layout/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/view"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view_tool_bar"
+
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_personal_pay_warn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_money"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_personal_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_QR_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="@{viewModel.isXianJin?View.GONE:View.VISIBLE}" />
+
+                <TextView
+                    android:id="@+id/tv_personal_xianjin_pay"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/shape_circle_blue"
+                    android:enabled="@{viewModel.clickEnable}"
+                    android:gravity="center"
+                    android:onClick="@{viewModel.confirmPay}"
+                    android:text="确认收款"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:visibility="@{viewModel.isXianJin?View.VISIBLE:View.GONE}"></TextView>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_personal_pay_commit"
+            style="@style/ButtonNormalAlignBottomEnableFull"
+            android:enabled="@{viewModel.clickEnable}"
+            android:onClick="@{viewModel.confirmPay}"
+            android:text="确认收款"
+            android:visibility="@{viewModel.isXianJin?View.GONE:View.VISIBLE}" />
+    </RelativeLayout>
+</layout>

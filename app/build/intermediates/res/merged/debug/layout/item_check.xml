@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                 
+                                
+                                                                    
+           
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical" android:tag="layout/item_check_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_or_margin"
+                android:gravity="center"
+                android:maxEms="7"
+                android:tag="binding_1"                   
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:tag="binding_2"                                       
+                android:textSize="13sp" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/editview_height"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_login_input"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:minWidth="60dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:tag="binding_3"                                           
+                    android:textColor="@color/text_normal"
+                    android:textSize="13sp"
+                                                                                     />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/padding_or_margin"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:tag="binding_4"                                  
+                android:textColor="@color/text_money"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shape_recyclerview_division_line"
+            />
+    </RelativeLayout>
+         

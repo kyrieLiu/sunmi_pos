@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ys.app.petproject"
+    android:versionCode="20"
+    android:versionName="1.2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- nfc使用权限 -->
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.NFC" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:name="ys.app.petproject.AppApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/NoTitleAppTheme" >
+        <activity
+            android:name="ys.app.petproject.activity.StartActivity"
+            android:theme="@style/CustomAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ys.app.petproject.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 库存 -->
+        <activity
+            android:name="ys.app.petproject.activity.inventory.InventoryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="ys.app.petproject.action.InventoryActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 登录 -->
+        <activity
+            android:name="ys.app.petproject.activity.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="ys.app.petproject.action.LoginActivity" />
+
+                <data android:scheme="login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ys.app.petproject.activity.CollectMoneyActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="ys.app.petproject.action.CollectMoneyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ys.app.petproject.activity.manage.ManagerActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="ys.app.petproject.action.ManagerActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ys.app.petproject.activity.vip.AddVipActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.vip.VipDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.vip.ChargeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.vip.PayActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.vip.PayResultActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.GoodsDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.CheckActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.AddInventoryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.inventory.TakeOutInventoryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.AddActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.ModifyActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.ModifyPswActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.CommitOrderActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.ShoppingPayActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.ShoppingPayResultActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.VipCardActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.AddVipCardActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.AddAnimalActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.ServiceSettingsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.PayListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.EmployeePerformanceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.ServiceDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.EmployeeListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.AddEmployeeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.AchievementActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="ys.app.petproject.action.AchievementActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ys.app.petproject.activity.StatisticsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.GoodsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.ServiceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.AddGoodsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.AddServiceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.vip.VipRecordActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.SearchActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.ModifyServiceDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.SaleActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="ys.app.petproject.action.SaleActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ys.app.petproject.activity.manage.ModifyBossPswActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.ForgetPwdActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.TransactionDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.EmployeeDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.EditEmployeeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.AboutUsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.AllAchievementActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <service
+            android:name="ys.app.petproject.service.InitDataService"
+            android:enabled="true" />
+        <!-- android:process=":InitService" -->
+        <service
+            android:name="ys.app.petproject.service.BlueToothService"
+            android:enabled="true" />
+
+        <!-- ImagePicker 相关配置 -->
+        <activity
+            android:name="ys.app.petproject.widget.imagepicker.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="ys.app.petproject.activity.inventory.InventoryRecordsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.inventory.InventoryRecordsDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.appointment.AppointmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.animalkind.AminalKindActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.appointment.AppointmentMainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="ys.app.petproject.action.AppointmentMainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ys.app.petproject.activity.appointment.AddAppointmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.AllotListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.AllotRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.nfc.MagneticCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.nfc.NfcNormalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.appointment.ServerAppointmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.PersonPayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.inventory.OutPutInventoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.inventory.OutStorageDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.RefundMoneyResultActivity"
+            android:screenOrientation="portrait" />
+        <!-- 声明widget对应的AppWidgetProvider -->
+        <receiver
+            android:name="ys.app.petproject.widgetprovider.MyWidgetProvider"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <!-- 对应MyWidgetProvider中的静态变量ACTION_UPDATE_ALL -->
+                <action android:name="ys.app.petproject.provider.widget_UPDATE_ALL" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget" />
+        </receiver>
+
+        <service android:name="ys.app.petproject.widgetprovider.MyWidgetService" >
+            <intent-filter>
+
+                <!-- 对应MyWidgetProvider中的静态变量MY_ERVICE_INTENT -->
+                <action android:name="ys.app.petproject.provider.widget_APP_WIDGET_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="ys.app.petproject.activity.vip.RefundVipActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.NumCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.manage.NumCardDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.vip.VipActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="ys.app.petproject.action.VipActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ys.app.petproject.activity.SandQRCodeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.ScanPayActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="ys.app.petproject.activity.ScannerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ys.app.petproject.activity.FosterCareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name="ys.app.petproject.activity.HairdressingActivity" />
+        <activity android:name="ys.app.petproject.BarCodeActivity" />
+        <activity android:name="ys.app.petproject.activity.TicketMangeActivity" />
+        <activity android:name="ys.app.petproject.activity.SystemManagerActivity" />
+        <activity android:name="ys.app.petproject.activity.manage.FunctionIntroductionListActivity" />
+        <activity android:name="ys.app.petproject.activity.manage.FunctionUpdateDetailActivity" />
+        <!-- <service -->
+        <!-- android:name="sunmi.ds.verify.InitCoreService" -->
+        <!-- android:exported="false" > -->
+        <!-- </service> -->
+        <!--
+        <receiver
+            android:name="sunmi.ds.MsgReceiver">
+            <intent-filter >
+                <action android:name="com.sunmi.hcservice"></action>
+                <action android:name="com.sunmi.hcservice.status"></action>
+            </intent-filter>
+        </receiver>
+        -->
+        <meta-data
+            android:name="SUNMI_APPKEY"
+            android:value="DEFAULT" />
+    </application>
+
+</manifest>

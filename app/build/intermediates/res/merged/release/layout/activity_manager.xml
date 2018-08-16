@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                 
+                            
+                                                                         
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg" android:tag="layout/activity_manager_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/status_bar_height"
+            android:background="@color/white" />
+
+        <include
+            layout="@layout/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/view" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tool_bar"
+            android:layout_above="@+id/ok_btn">
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tool_bar"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="8dp"
+                    android:tag="binding_1"                              
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/padding_or_margin"
+                        android:layout_marginRight="10dp"
+                        android:drawableLeft="@mipmap/xiugaimima2"
+                        android:drawablePadding="20dp"
+                        android:drawableRight="@mipmap/youjiantou"
+                        android:gravity="center_vertical"
+                        android:text="系统设置"
+                        android:textSize="@dimen/text_size_normal" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:tag="binding_2"                               
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/padding_or_margin"
+                        android:layout_marginRight="10dp"
+                        android:drawableLeft="@mipmap/yuangongguanli2"
+                        android:drawablePadding="20dp"
+                        android:drawableRight="@mipmap/youjiantou"
+                        android:gravity="center_vertical"
+                        android:text="员工管理"
+                        android:textSize="@dimen/text_size_normal" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:tag="binding_3"                       
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/padding_or_margin"
+                        android:layout_marginRight="10dp"
+                        android:drawableLeft="@mipmap/huiyuankaguanli"
+                        android:drawablePadding="20dp"
+                        android:drawableRight="@mipmap/youjiantou"
+                        android:gravity="center_vertical"
+                        android:text="会员卡管理"
+                        android:textSize="@dimen/text_size_normal" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="8dp"
+                    android:tag="binding_4"                             
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/padding_or_margin"
+                        android:layout_marginRight="10dp"
+                        android:drawableLeft="@mipmap/xiugaimima2"
+                        android:drawablePadding="20dp"
+                        android:drawableRight="@mipmap/youjiantou"
+                        android:gravity="center_vertical"
+                        android:text="调拨管理"
+                        android:textSize="@dimen/text_size_normal" />
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:tag="binding_5"                      
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/padding_or_margin"
+                        android:layout_marginRight="10dp"
+                        android:drawableLeft="@mipmap/xiugaimima2"
+                        android:drawablePadding="20dp"
+                        android:drawableRight="@mipmap/youjiantou"
+                        android:gravity="center_vertical"
+                        android:text="修改登录密码"
+                        android:textSize="@dimen/text_size_normal" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:tag="binding_6"                             
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/padding_or_margin"
+                        android:layout_marginRight="10dp"
+                        android:drawableLeft="@mipmap/xiugaimima2"
+                        android:drawablePadding="20dp"
+                        android:drawableRight="@mipmap/youjiantou"
+                        android:gravity="center_vertical"
+                        android:text="修改店长密码"
+                        android:textSize="@dimen/text_size_normal" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:tag="binding_7"                     
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/padding_or_margin"
+                        android:layout_marginRight="10dp"
+                        android:drawableLeft="@mipmap/xiugaimima2"
+                        android:drawablePadding="20dp"
+                        android:drawableRight="@mipmap/youjiantou"
+                        android:gravity="center_vertical"
+                        android:text="关于我们"
+                        android:textSize="@dimen/text_size_normal" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+
+        <Button
+            android:id="@+id/ok_btn"
+            style="@style/ButtonNormalAlignBottomEnableFull"
+            android:tag="binding_8"                  
+            android:text="签退" />
+
+    </RelativeLayout>
+         

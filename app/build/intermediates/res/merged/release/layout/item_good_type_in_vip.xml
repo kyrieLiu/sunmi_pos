@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                                           
+
+                                                         
+                 
+                                
+                                                                            
+           
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" android:tag="layout/item_good_type_in_vip_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+        <EditText
+            android:id="@+id/zhekou_tv"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/text_money"
+            android:maxLength="2"
+            android:tag="binding_1"                    
+                                                              
+                                                                           
+                                                                    
+            tools:text="98" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/zhekou_tv"
+            android:tag="binding_2"                                                                                
+            tools:text="主粮系列 : " />
+
+        <TextView
+            android:id="@+id/zhe_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/zhekou_tv"
+            android:text="@string/zhe" />
+
+
+    </RelativeLayout>
+
+         

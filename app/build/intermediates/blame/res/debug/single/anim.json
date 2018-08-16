@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\shrink_stack.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\anim\\shrink_stack.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\expand_animation.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\anim\\expand_animation.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_down.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\anim\\rotate_down.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_right.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\anim\\slide_in_from_right.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_up.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\anim\\rotate_up.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\ver_tran_in.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\anim\\ver_tran_in.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\ver_tran_out.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\anim\\ver_tran_out.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_from_left.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\anim\\slide_out_from_left.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_left.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\anim\\slide_in_from_left.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_from_right.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\anim\\slide_out_from_right.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\anim\\abc_fade_in.xml"
+    }
+]

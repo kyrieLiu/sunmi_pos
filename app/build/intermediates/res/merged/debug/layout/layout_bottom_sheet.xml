@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#f5f5f5"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/shape_left_select"
+            android:drawablePadding="5dp"
+            android:text="已选商品/服务"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:text="清空"
+            android:textColor="@color/text_money"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <ys.app.petproject.widget.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/service_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:drawableLeft="@mipmap/fuwu"
+                        android:drawablePadding="@dimen/iv_tv_padding"
+                        android:gravity="center"
+                        android:layout_marginLeft="150dp"
+                        android:text="服务"
+                        android:textColor="@color/color_main"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <ys.app.petproject.widget.MyListView
+                    android:id="@+id/service_listView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:divider="@null"
+                    tools:listitem="@layout/product_item" />
+                <include layout="@layout/line_h_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/goods_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:drawableLeft="@mipmap/shangpinicon"
+                        android:drawablePadding="@dimen/iv_tv_padding"
+                        android:gravity="center"
+                        android:layout_marginLeft="150dp"
+                        android:text="商品"
+                        android:textColor="@color/color_main"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <ys.app.petproject.widget.MyListView
+                    android:id="@+id/goods_listView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:divider="@null"
+                    tools:listitem="@layout/product_item" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:text="提示: 长按可设置为赠品或取消赠送"
+                android:textColor="@color/text_light"
+                android:visibility="gone"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+
+    </ys.app.petproject.widget.MyScrollView>
+
+
+</LinearLayout>

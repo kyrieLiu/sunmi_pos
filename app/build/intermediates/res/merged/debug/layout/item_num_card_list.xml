@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                                                         
+                                           
+
+                 
+                                
+                                                                      
+           
+
+    <LinearLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" android:tag="layout/item_num_card_list_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:tag="binding_1"                            >
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_or_margin"
+                android:drawableLeft="@mipmap/huiyuanka"
+                android:drawablePadding="@dimen/iv_tv_padding"
+                android:tag="binding_2"                   
+                android:textColor="@color/color_main" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_or_margin">
+
+
+                <Button
+                    android:id="@+id/bt_vipCard_cancellation"
+                    style="@style/ThemeButtonNormal"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:tag="binding_3"                    
+
+                    android:text="作废"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/bt_vipCard_delete"
+                    style="@style/ThemeButtonNormal"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:tag="binding_4"                  
+                    android:text="删除"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <include layout="@layout/line_h_normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:tag="binding_5"                   
+                                                          
+                                                         
+            tools:visibility="gone"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:tag="binding_6"                   />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:tag="binding_7"                                         />
+
+
+            <include layout="@layout/line_h_normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:tag="binding_8"                       
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/ThemePressLeftBg"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="持卡会员" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+         

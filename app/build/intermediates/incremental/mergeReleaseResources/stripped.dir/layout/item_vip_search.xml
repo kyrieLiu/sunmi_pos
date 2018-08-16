@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    
+
+                                        
+                                                         
+                                                  
+
+                 
+                                
+                                                                            
+           
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" android:tag="layout/item_vip_search_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/huiyuankalanbeijing">
+
+            <RelativeLayout
+                android:id="@+id/up_rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:tag="binding_1"                   
+                    android:textColor="@android:color/white"
+                    tools:text="会员姓名" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/name_tv"
+                    android:tag="binding_2"                    
+                    android:textColor="@android:color/white"
+                    tools:text="18239900654" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:tag="binding_3"                       
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    tools:text="铜卡" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_or_margin"
+                android:layout_marginRight="@dimen/padding_or_margin"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="binding_4"                      
+                        android:textColor="@color/white"
+                        android:textSize="13sp"
+                        tools:text="@string/app_name" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:tag="binding_5"                      
+                        android:textColor="@color/white"
+                        android:textSize="13sp"
+                        tools:text="@string/app_name" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="binding_6"                      
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        tools:text="@string/app_name" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:tag="binding_7"                      
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        tools:text="@string/app_name" />
+                </LinearLayout>
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="30dp"
+                    android:scrollbars="none"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_item_vip_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="binding_8"              
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:singleLine="true"
+                        android:textSize="13sp"
+                        tools:text="50000000000000000" />
+                </HorizontalScrollView>
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@mipmap/yizuofei"
+                    android:tag="binding_9"                                                        
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:background="@mipmap/huiyuankatouming">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:tag="binding_10"                          
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp"
+                    tools:text="NO:96512456611489" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:tag="binding_11"                 
+                    android:textColor="@color/text_yellow"
+                    android:textSize="10sp"
+                    tools:text="本店创建" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/huiyuantouying" />
+
+
+    </RelativeLayout>
+         

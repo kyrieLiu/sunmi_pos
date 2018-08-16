@@ -1,0 +1,4 @@
+#Thu Aug 02 19:49:17 CST 2018
+base.0=F\:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="ActivityAddAnimalBinding">
+
+        <variable
+            name="viewModel"
+            type="ys.app.petproject.viewmodel.AddAnimalViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/status_bar_height"
+            android:background="@color/white" />
+
+        <include
+            layout="@layout/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/view" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tool_bar"
+            android:layout_marginBottom="@dimen/button_height">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tool_bar"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="@dimen/padding_or_margin"
+                android:layout_marginRight="@dimen/padding_or_margin"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_addAnimal_vipName"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="会员名称" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": " />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:inputType="number"
+                        android:text="@{viewModel.obVipName}" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_addAnimal_vipPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="会员电话" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:inputType="number"
+                        android:text="@{viewModel.obVipPhone}" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="宠物名称" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": " />
+
+                    <EditText
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="@={viewModel.obAnimalName}" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tv0"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="宠物性别" />
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv0"
+                        android:text=": " />
+
+                    <ImageView
+                        android:id="@+id/select_iv0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{viewModel.clickGenderButton}"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/arrow_down" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_iv0"
+                        android:layout_toRightOf="@+id/tv1"
+                        android:background="@null"
+                        android:hint="请选择性别"
+                        android:onClick="@{viewModel.clickGenderButton}"
+                        android:text="@={viewModel.obAnimalGender}" />
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="年龄" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": " />
+
+                    <EditText
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:text="@={viewModel.obAnimalAge}" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="岁" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="生日" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": " />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:maxLength="10"
+                        android:onClick="@{()->viewModel.clickBirthdaySelect()}"
+                        android:text="@{viewModel.obAnimalBirthday}" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv_pet_skin"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="皮肤特征   :" />
+
+                    <ImageView
+                        android:id="@+id/select_pet_skin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{()->viewModel.selectIsSkin()}"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/arrow_down" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_pet_skin"
+                        android:layout_toRightOf="@+id/tv_pet_skin"
+                        android:background="@null"
+                        android:hint="请选择宠物皮肤特征"
+
+                        android:onClick="@{()->viewModel.selectIsSkin()}"
+                        android:text="@={viewModel.isSkin}"
+
+                        />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv_pet_bite"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="性格特征   :" />
+
+                    <ImageView
+                        android:id="@+id/select_pet_bite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{()->viewModel.selectIsBite()}"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/arrow_down" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_pet_bite"
+                        android:layout_toRightOf="@+id/tv_pet_bite"
+                        android:background="@null"
+                        android:hint="请选择宠物性格特征"
+
+                        android:onClick="@{()->viewModel.selectIsBite()}"
+                        android:text="@={viewModel.isBite}"
+
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tv13"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="种类" />
+
+                    <TextView
+                        android:id="@+id/tv14"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv13"
+                        android:text=": " />
+
+                    <ImageView
+                        android:id="@+id/select_iv7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{viewModel.clickCategory}"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/arrow_down" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_iv"
+                        android:layout_toRightOf="@+id/tv14"
+                        android:background="@null"
+                        android:hint="请选择种类"
+                        android:onClick="@{viewModel.clickCategory}"
+                        android:text="@={viewModel.obAnimalCategory}"
+
+                        />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@{viewModel.selectBreed?@drawable/shape_login_input:@drawable/shape_grey_input}"
+                    android:orientation="horizontal"
+                    tools:background="@drawable/shape_grey_input">
+
+
+                    <TextView
+                        android:id="@+id/tv"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="品种" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv"
+                        android:text=": " />
+
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_iv"
+                        android:layout_toRightOf="@+id/tv2"
+                        android:background="@null"
+                        android:hint="请选择品种"
+                        android:onClick="@{viewModel.clickBreedButton}"
+                        android:text="@={viewModel.obAnimalBreed}" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="毛色" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": " />
+
+                    <EditText
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@={viewModel.obAnimalColor}" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="色" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="体重" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": " />
+
+                    <EditText
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:text="@={viewModel.obAnimalWeight}" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="kg" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="是否疫苗" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv5"
+                        android:text=": " />
+
+                    <ImageView
+                        android:id="@+id/select_iv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{viewModel.clickIsYimiaoButton}"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/arrow_down" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_iv"
+                        android:layout_toRightOf="@+id/tv6"
+                        android:background="@null"
+                        android:hint="请选择是否疫苗"
+                        android:onClick="@{viewModel.clickIsYimiaoButton}"
+                        android:text="@={viewModel.obAnimalIsYimiao}" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@{viewModel.selectYimiao?@drawable/shape_login_input:@drawable/shape_grey_input}"
+                    android:orientation="horizontal"
+                    tools:background="@drawable/shape_grey_input">
+
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="疫苗时间" />
+
+                    <TextView
+                        android:id="@+id/yimiao_date_tv"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv9"
+                        android:text=": " />
+
+                    <ImageView
+                        android:id="@+id/select_iv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{viewModel.clickYimiaoDateButton}"
+                        android:scaleType="fitCenter"
+                        app:imgSrc="@{viewModel.selectYimiaoImg}"
+                        tools:src="@mipmap/arrow_down_grey" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_iv4"
+                        android:layout_toRightOf="@+id/yimiao_date_tv"
+                        android:background="@null"
+                        android:hint="请选择上次疫苗时间"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:onClick="@{viewModel.clickYimiaoDateButton}"
+                        android:text="@={viewModel.obAnimalYimiaoDate}"
+
+                        />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@{viewModel.selectYimiao?@drawable/shape_login_input:@drawable/shape_grey_input}"
+                    tools:background="@drawable/shape_grey_input"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_period_yimiao"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="疫苗提醒: " />
+
+
+                    <ImageView
+                        android:id="@+id/iv_settingPeriod_yimiao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{()->viewModel.settingYimiaoPeriod()}"
+                        android:scaleType="fitCenter"
+                        app:imgSrc="@{viewModel.selectYimiaoImg}"
+                        tools:src="@mipmap/arrow_down" /> />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv_period_yimiao"
+                        android:background="@null"
+                        android:hint="请选择疫苗提醒周期"
+                        android:onClick="@{()->viewModel.settingYimiaoPeriod()}"
+                        android:text="@={viewModel.obAnimalYimiaoPeriod}"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv7"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="是否内驱" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv7"
+                        android:text=": " />
+
+                    <ImageView
+                        android:id="@+id/select_iv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{viewModel.clickIsQuchongButton}"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/arrow_down" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_iv"
+                        android:layout_toRightOf="@+id/tv8"
+                        android:background="@null"
+                        android:hint="请选择是否内驱"
+                        android:onClick="@{viewModel.clickIsQuchongButton}"
+                        android:text="@={viewModel.obAnimalIsQuchong}"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@{viewModel.selectQuchong?@drawable/shape_login_input:@drawable/shape_grey_input}"
+                    tools:background="@drawable/shape_grey_input"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv_setting_neiqu"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="内驱时间  :" />
+
+                    <ImageView
+                        android:id="@+id/iv_date_neiqu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{viewModel.clickIsQuchongButton}"
+                        android:scaleType="fitCenter"
+                        app:imgSrc="@{viewModel.selectQuchongImg}"
+                        tools:src="@mipmap/arrow_down" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/iv_date_neiqu"
+                        android:layout_toRightOf="@+id/tv_setting_neiqu"
+                        android:background="@null"
+                        android:hint="请选择上次内驱时间"
+                        android:onClick="@{viewModel.clickQuchongDateButton}"
+                        android:text="@={viewModel.obAnimalQuchongDate}"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@{viewModel.selectQuchong?@drawable/shape_login_input:@drawable/shape_grey_input}"
+                    tools:background="@drawable/shape_grey_input"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv11"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="内驱提醒" />
+
+                    <TextView
+                        android:id="@+id/quchong_date_tv"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv11"
+                        android:text=": " />
+
+                    <ImageView
+                        android:id="@+id/iv_settingPeriod_neiqu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{()->viewModel.selectNeiquPeriod()}"
+                        android:scaleType="fitCenter"
+                        app:imgSrc="@{viewModel.selectQuchongImg}"
+                        tools:src="@mipmap/arrow_down" /> />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/quchong_date_tv"
+                        android:background="@null"
+                        android:hint="请选择内驱提醒周期"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:onClick="@{()->viewModel.selectNeiquPeriod()}"
+                        android:text="@={viewModel.neiquPeriod}"
+                        android:id="@+id/textView13" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tv_waiqu_name"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="是否外驱" />
+
+                    <TextView
+                        android:id="@+id/tv_waiqu_name1"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv_waiqu_name"
+                        android:text=": " />
+
+                    <ImageView
+                        android:id="@+id/select_iv_waiqu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{()->viewModel.selectIsWaiqu()}"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/arrow_down" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_iv_waiqu"
+                        android:layout_toRightOf="@+id/tv_waiqu_name1"
+                        android:background="@null"
+                        android:hint="请选择是否外驱"
+                        android:onClick="@{()->viewModel.selectIsWaiqu()}"
+                        android:text="@={viewModel.obAnimalIsWaiqu}"
+
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@{viewModel.selectWaiqu?@drawable/shape_login_input:@drawable/shape_grey_input}"
+                    android:orientation="horizontal"
+                    tools:background="@drawable/shape_grey_input">
+
+
+                    <TextView
+                        android:id="@+id/tv_waiqu"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="外驱时间" />
+
+                    <TextView
+                        android:id="@+id/waiqu_date_tv"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv_waiqu"
+                        android:text=": " />
+
+                    <ImageView
+                        android:id="@+id/select_waiqu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{()->viewModel.selectWaiquDate()}"
+                        android:scaleType="fitCenter"
+                        app:imgSrc="@{viewModel.selectWaiquImg}"
+                        tools:src="@mipmap/arrow_down_grey" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_waiqu"
+                        android:layout_toRightOf="@+id/waiqu_date_tv"
+                        android:background="@null"
+                        android:hint="请选择上次外驱时间"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:onClick="@{()->viewModel.selectWaiquDate()}"
+                        android:text="@={viewModel.obAnimalWaiquTime}" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@{viewModel.selectWaiqu?@drawable/shape_login_input:@drawable/shape_grey_input}"
+                    android:orientation="horizontal"
+                    tools:background="@drawable/shape_grey_input">
+
+
+                    <TextView
+                        android:id="@+id/tv_period_date_waiqu"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="外驱提醒  :" />
+
+                    <ImageView
+                        android:id="@+id/select_period_waiqu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:onClick="@{()->viewModel.settingWaiquPeriod()}"
+                        android:scaleType="fitCenter"
+                        app:imgSrc="@{viewModel.selectWaiquImg}"
+                        tools:src="@mipmap/arrow_down_grey" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/select_period_waiqu"
+                        android:layout_toRightOf="@+id/tv_period_date_waiqu"
+                        android:background="@null"
+                        android:hint="请选择外驱提醒周期"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:onClick="@{()->viewModel.settingWaiquPeriod()}"
+                        android:text="@={viewModel.waiquPeriod}" />
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/shape_login_input"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="宠物备注" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=": " />
+
+                    <EditText
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:maxLength="50"
+                        android:hint="请输入宠物备注,限50字以内(选填)"
+                        android:text="@={viewModel.petRemark}" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            style="@style/ButtonNormalAlignBottomFull"
+            android:onClick="@{viewModel.clickButton}"
+            android:text="确定" />
+    </RelativeLayout>
+</layout>

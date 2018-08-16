@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+           
+    <RelativeLayout
+        style="@style/CustomAppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true" android:tag="layout/activity_start_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    </RelativeLayout>
+
+         

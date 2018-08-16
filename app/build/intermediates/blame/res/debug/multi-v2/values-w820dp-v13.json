@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\values-w820dp\\attrs.xml",
+                    "from": {
+                        "startLines": "9,22,2,15",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "431,811,55,675",
+                        "endLines": "13,64,8,19",
+                        "endColumns": "24,24,24,24",
+                        "endOffsets": "669,3036,426,787"
+                    },
+                    "to": {
+                        "startLines": "2,7,50,57",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,295,2525,2896",
+                        "endLines": "6,49,56,61",
+                        "endColumns": "24,24,24,24",
+                        "endOffsets": "290,2520,2891,3007"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\values-w820dp\\attrs.xml",
+                    "from": {
+                        "startLines": "9,22,2,15",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "431,811,55,675",
+                        "endLines": "13,64,8,19",
+                        "endColumns": "24,24,24,24",
+                        "endOffsets": "669,3036,426,787"
+                    },
+                    "to": {
+                        "startLines": "2,7,50,57",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,295,2525,2896",
+                        "endLines": "6,49,56,61",
+                        "endColumns": "24,24,24,24",
+                        "endOffsets": "290,2520,2891,3007"
+                    }
+                }
+            ]
+        }
+    ]
+}

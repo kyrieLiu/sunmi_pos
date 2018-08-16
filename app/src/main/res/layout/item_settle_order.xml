@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="ItemSettleOrderBinding">
+
+        <variable
+            name="itemViewModel"
+            type="ys.app.petproject.viewmodel.SettleOrderItemViewModel" />
+
+        <import type="ys.app.petproject.utils.DateUtil" />
+        <import type="ys.app.petproject.utils.AppUtil"/>
+
+        <import type="android.view.View" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF2F2F2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/parent_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:onClick="@{itemViewModel.clickOpenOrClose}"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="@dimen/padding_or_margin"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/order_name_tv"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text='@{itemViewModel.model.orderInfo.contains(@string/cz)?@string/hykczdd:@string/spfwdd}'
+                    android:textSize="13sp"
+                    tools:text="订单" />
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toRightOf="@+id/order_name_tv"-->
+                <!--android:text='@{@string/rmb+itemViewModel.model.realAmt}'-->
+                <!--android:textColor="@color/text_pink"-->
+                <!--android:visibility='@{itemViewModel.model.orderInfo.contains(@string/cz)?View.VISIBLE:View.GONE}'-->
+                <!--tools:text="¥30.0" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@{DateUtil.longFormatDate3(itemViewModel.model.orderTime)}"
+                    android:textColor="@color/text_light"
+                    android:textSize="13sp"
+                    tools:text="2017-04-25   22:27:36" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:id="@+id/num_tv"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text='@{itemViewModel.model.orderInfo.contains(@string/cz)?@string/hysj+itemViewModel.model.vipPhone:itemViewModel.model.orderDetailedList.size()+@string/jsp}'
+                    android:textSize="13sp"
+                    tools:text="5件商品" />
+
+                <TextView
+                    android:id="@+id/price_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/num_tv"
+                    android:text='@{@string/rmb+AppUtil.formatStandardMoney(itemViewModel.model.realAmt)}'
+                    android:textColor="@color/text_money"
+                    tools:text="¥30.0" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility='@{itemViewModel.model.orderInfo.contains(@string/cz)?View.GONE:itemViewModel.model.expand?View.VISIBLE:View.GONE}'>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/shape_child_up_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="已选商品/服务"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/dash_line"
+                android:layerType="software" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/child_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:adapterData="@{itemViewModel.model.orderDetailedList}" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/shape_child_down_line" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

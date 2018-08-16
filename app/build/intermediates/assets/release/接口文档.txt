@@ -1,0 +1,53 @@
+修改店长密码
+/updatePasswordBoss  String newPassword, String oldPassword, String shopId, String equipmentId
+修改登录密码
+/updatePassword  String newPassword, String oldPassword, String shopId, String equipmentId
+验证店长密码
+/userLoginBoss  String shopId, String passWord,String equipmentId
+更新服务
+/updateProduct
+促销
+Integer isFold:1代表折上折
+promotionType:1:折扣 2:立减
+promotionNum:折扣传0.6  立减 传20  100-20=80
+更新销售人
+/updateRecharge  shopId和主键id（订单详情ID）
+/updateOrderDetailed  shopId和主键id（订单详情ID）
+---------------------------------------------------------------------------------------------------
+不是促销用会员卡支付 单价以会员单价为准 总价以会员总价为准
+
+不是促销不用会员卡支付 单价以原价为准 总价以原价总价为准
+
+促销不是折上折用会员卡支付  单价以会员价为准 总价以会员总价为准
+
+促销不是折上折不用会员卡支付 单价以促销价为准 总价以促销总价为准
+
+促销是折上折用会员卡支付  单价以促销价*会员折扣为准 总价以会员总价为准
+
+促销是折上折不用会员卡支付 单价以促销价为准 总价以促销总价为准
+
+
+ if (info.getVipUserId() > 0) {//会员卡
+        if (1 == info.getIsPromotion()) {//促销
+            if (1 ==info.getIsFold()) {//折上折
+                countMoney += info.getCountPromotionMoney();
+            } else {
+                countMoney += info.getCountVipMoney();
+            }
+        } else {
+            countMoney += info.getCountVipMoney();
+        }
+    } else {
+        if (1 == info.getIsPromotion()) {
+            countMoney += info.getCountPromotionMoney();
+        } else {
+            countMoney += info.getCountMoney();
+        }
+    }
+----------------------------------------------------------------------------------------------------
+发送短信验证码
+/findSMSValid
+String type, String shopId, String equipmentId   type传1
+忘记密码
+/updatePassword2
+String newPassword, String phoneCode, String shopId, String equipmentId

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="ItemEmployeeListBinding">
+
+        <import type="java.util.List" />
+
+        <import type="ys.app.petproject.utils.AppUtil" />
+
+        <variable
+            name="itemViewModel"
+            type="ys.app.petproject.viewmodel.manage.EmployeeListItemViewModel" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_marginLeft="@dimen/padding_or_margin"-->
+        <!--android:layout_marginRight="@dimen/padding_or_margin"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:orientation="horizontal">-->
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:src="@mipmap/bianji"-->
+        <!--android:visibility="gone" />-->
+
+
+        <!--</RelativeLayout>-->
+
+        <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2px"-->
+        <!--android:layout_marginLeft="@dimen/padding_or_margin"-->
+        <!--android:layout_marginRight="@dimen/padding_or_margin"-->
+        <!--android:background="@drawable/shape_dash_line_normal"-->
+        <!--android:layerType="software" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/padding_or_margin"
+            android:layout_marginRight="@dimen/padding_or_margin"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@{itemViewModel.model.name}"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                tools:text="吕西施" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:text='@{@string/zkh+itemViewModel.model.post+@string/ykh}'
+                tools:text="(店长)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:text='@{itemViewModel.model.sex == 1 ? @string/nv:@string/nan}'
+                android:textSize="13sp"
+                tools:text="女" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{itemViewModel.model.phone}"
+                android:textSize="13sp"
+                tools:text="18239900618" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="@dimen/padding_or_margin"
+            android:layout_marginRight="@dimen/padding_or_margin"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text='@{@string/no+itemViewModel.model.jobNumber}'
+                android:textSize="13sp"
+                tools:text="NO:12" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text='@{@string/cjsj+AppUtil.getTimes(itemViewModel.model.createTime)}'
+                android:textColor="@color/text_light"
+                android:textSize="12sp"
+                tools:text="入职时间:2016-04-26" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_divide_normal" />
+    </LinearLayout>
+
+</layout>

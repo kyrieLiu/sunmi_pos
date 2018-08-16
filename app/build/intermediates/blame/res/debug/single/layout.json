@@ -1,0 +1,1430 @@
+[
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_modify.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_appointment_main.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_appointment_main.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_transaction_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_transaction_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_address_book.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_address_book.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_service_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_bar.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\tool_bar.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_refound_money_result.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_refound_money_result.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_employee_performance_1.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_performance_1.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sand_qrcode.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_sand_qrcode.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_service_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_service_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sand_qrcode.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_sand_qrcode.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bar_code.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_bar_code.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_achievement.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_achievement.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_inventory_records.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_inventory_records.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ticket_mange.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_ticket_mange.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_employee_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_employee_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bottom_sheet.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\layout_bottom_sheet.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_allot_record_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_allot_record_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_take_out_inventory.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_take_out_inventory.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_good_type_in_vip.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_good_type_in_vip.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_more_footer_end.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\load_more_footer_end.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_child_order.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_child_order.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_transaction.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_num_card_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_num_card_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_vip_card.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_card.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_employee_performance_3.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_performance_3.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_more_footer_loading.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\load_more_footer_loading.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pay.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_pay.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_vip_consume.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_consume.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_inventory_record.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_inventory_record.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_order2.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_order2.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_commit_order.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_commit_order.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_transaction_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_transaction_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_order2.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_order2.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_all_achievement.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_all_achievement.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_achievement.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_achievement.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_add_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sale.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_sale.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_window.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\pop_window.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_vip_recharge.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_recharge.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_keyboard.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\custom_keyboard.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_inventory.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_inventory.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_modify_psw.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_modify_psw.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_check_allot.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\dialog_check_allot.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hairdressing_inspect.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_hairdressing_inspect.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_personal_pay.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_personal_pay.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_goods_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_employee_performance_1.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_performance_1.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\nfc_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_appointment_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_appointment_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_employee_name.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_name.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_num_card_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_num_card_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_widget_layout.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\my_widget_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_employee_shop_car_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_shop_car_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_transaction.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_vip_pet_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_pet_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_service_settings.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_service_settings.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_employee_performance.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_employee_performance.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_vip_search.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_search.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_vip_record.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_vip_record.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shopping_pay_result.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_shopping_pay_result.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_goods_search.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_goods_search.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_allot_shop_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_allot_shop_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_employee.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_edit_employee.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_search_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_search_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_vip_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_vip_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_modify.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_modify.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_forget_pwd.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_forget_pwd.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\line_h_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\line_h_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_vip.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_employee.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address_book.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_address_book.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_customer_type.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\dialog_customer_type.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_vip_consume.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_vip_consume.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_appointment_main.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_appointment_main.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_employee_name_new.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_name_new.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_good_type_in_vip.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_good_type_in_vip.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_paymethod_statistics.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_paymethod_statistics.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hairdressing_organs.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_hairdressing_organs.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_employee_shop_car_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_shop_car_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_foster_care.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_foster_care.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_confirm_check_out.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_confirm_check_out.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_goods_name.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_goods_name.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_introduction_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_function_introduction_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\line_v_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\line_v_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_inventory.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_inventory.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_statistics.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_statistics.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_inventory_record.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_inventory_record.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_appointment_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_appointment_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ticket_mange.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_ticket_mange.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_card.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_service_card.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_vip_pet_child.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_pet_child.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_animal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_animal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\request_dialog.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\request_dialog.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_paymethod_statistics.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_paymethod_statistics.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_select_dialog.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\card_select_dialog.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_add_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_add_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_transaction_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_transaction_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_num_card_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_num_card_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_confirm_checkout.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\dialog_confirm_checkout.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_employee.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_add_employee.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pay_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_pay_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pay_result.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_pay_result.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_out_put_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_out_put_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_goods_search.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_goods_search.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_vip_appointment.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_vip_appointment.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_vip.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_vip.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_transaction_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\popup_transaction_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_num_card_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_num_card_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forget_pwd.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_forget_pwd.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_footer.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\load_footer.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_employee_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_employee_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\line_h_blue.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\line_h_blue.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_foster_care.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_foster_care.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_refund_vip.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_refund_vip.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_search_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_search_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crop_image_view.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\crop_image_view.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_employee_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_check.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_search.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_service_search.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_confirm_check_out.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_confirm_check_out.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_type_in_vip.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_service_type_in_vip.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_select.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_select.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inventory.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_inventory.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_normal_appointment.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_normal_appointment.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_add_employee.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_add_employee.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_goods_name.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_goods_name.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_more_footer_load_finish.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\load_more_footer_load_finish.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_vip_recharge.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_vip_recharge.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_employee_performance_3.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_performance_3.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_vip.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_pay_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_out_put_inventory.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_out_put_inventory.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_take_out_inventory.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_take_out_inventory.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_service_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_service_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_out_put_inventory.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_out_put_inventory.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\line_h_dark.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\line_h_dark.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_header_view.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\layout_header_view.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_num_card_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_num_card_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_goods_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_goods_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_check.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_check.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_check.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_check.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_goods_or_service_statistics.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_goods_or_service_statistics.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_irecyclerview_refresh_header.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\layout_irecyclerview_refresh_header.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_vip_pet_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_pet_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_search_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_search_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vip_record.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_vip_record.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_employee_performance_2.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_performance_2.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_employee_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_employee_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_normal_appointment.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_normal_appointment.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_service_settings.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_service_settings.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_allot_shop_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_allot_shop_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_vip.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_vip.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_add_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\dialog_add_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_manager.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_manager.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_modify_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_modify_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_delete.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\dialog_delete.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_allot_select.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_allot_select.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_vip_recharge.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_recharge.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scan.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_modify_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_charge.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_charge.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_inventory_record_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_inventory_record_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify_boss_psw.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_modify_boss_psw.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_animal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_animal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_employee_order.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\head_employee_order.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify_psw.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_modify_psw.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_statistics.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_statistics.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_vip_card.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_vip_card.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_function_introduction.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_function_introduction.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_search_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_search_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_pay.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_personal_pay.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_employee_name.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_name.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_appointment.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_appointment.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_result.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_pay_result.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_service_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_service_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_vip_recharge.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_vip_recharge.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_employee_performance_2.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_performance_2.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_out_put_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_out_put_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_num_card_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_num_card_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_employee.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_employee.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_add_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_add_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_settle_order.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_settle_order.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_start.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_goods_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_goods_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_commit_order.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_commit_order.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_employee_name_new.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_name_new.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_vip_card.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_vip_card.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_inventory_records_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_inventory_records_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_vip_card.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_vip_card.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_refund_vip.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_refund_vip.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_inventory_records.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_inventory_records.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_service_num_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_service_num_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service_settings.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_service_settings.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transaction_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_transaction_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_all_achievement.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_all_achievement.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_service_search.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_service_search.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_system_manager.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_system_manager.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_more_footer_network_error.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\load_more_footer_network_error.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sale.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_sale.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_edit_employee.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_edit_employee.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_nfc.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_nfc.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_inventory_records.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_inventory_records.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_manager.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_manager.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_add_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_num_card_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_num_card_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_title.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_title.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_settings.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_service_settings.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hairdressing.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_hairdressing.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ac_sunmi_scan_finder.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\ac_sunmi_scan_finder.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ac_sunmi_scan_finder.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\ac_sunmi_scan_finder.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_collect_money.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_collect_money.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_vip_card.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_vip_card.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_employee.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_employee_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_employee_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_vip_appointment.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_vip_appointment.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_check.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_check.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_vip_consume.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_vip_consume.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_inventory.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_inventory.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_selector.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\dialog_selector.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_out_storage_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_out_storage_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shopping_pay_result.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_shopping_pay_result.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_vip_search.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_search.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_vip_consume.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_consume.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_animal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_animal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_vip_card.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_vip_card.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_child_order.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_child_order.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_header.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_check_header.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inventory_records_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_inventory_records_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\select_dialog.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_animal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_animal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_service_num_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_service_num_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_search.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_about_us.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_employee_performance.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_employee_performance.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_settle_order.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_settle_order.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function_update_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_function_update_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_vip_pet_warn.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\dialog_vip_pet_warn.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_inventory.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_inventory.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_appointment_main.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_appointment_main.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_num_card.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_service_num_card.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_search.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\dialog_search.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shopping_pay.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_shopping_pay.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_appointment.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_appointment.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_irecyclerview_footer.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\layout_irecyclerview_footer.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_item.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\product_item.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_num_card_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_num_card_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vip_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_vip_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_allot_record_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_allot_record_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inventory_records.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_inventory_records.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vip_card.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_vip_card.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_inventory_record_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_inventory_record_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_charge.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_charge.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_employee.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_employee.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shopping_pay.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_shopping_pay.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_allot_manage.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_allot_manage.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_num_card_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_num_card_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_inventory.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_add_inventory.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_pay.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_vip_card.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_card.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_num_card_list.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_num_card_list.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_appointment_main.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_appointment_main.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_allot_manage.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_allot_manage.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goods.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_goods.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_collect_money.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_collect_money.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_goods_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\pop_goods_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_tab.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\custom_tab.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\line_v_dark.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\line_v_dark.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_service_type_in_vip.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_service_type_in_vip.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_out_storage_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_out_storage_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_modify_boss_psw.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_modify_boss_psw.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\fragment_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crop_image_activity.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\crop_image_activity.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_vip_pet_child.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_vip_pet_child.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_customer_type.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\dialog_customer_type.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_goods_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_goods_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_appointment.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_appointment.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_employee_detail.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\activity_employee_detail.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_goods_or_service_statistics.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\layout\\item_goods_or_service_statistics.xml"
+    }
+]

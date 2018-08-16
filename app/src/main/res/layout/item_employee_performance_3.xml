@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="ItemEmployeePerformance3Binding">
+
+        <import type="ys.app.petproject.utils.DateUtil" />
+        <import type="ys.app.petproject.utils.AppUtil"/>
+        <variable
+            name="itemViewModel"
+            type="ys.app.petproject.viewmodel.manage.EmployeePerformance3ItemViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layerType="software"
+            android:src="@drawable/dash_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_item_performance_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@{DateUtil.longFormatDate3(itemViewModel.model.payDate)}"
+                    android:textColor="@color/text_light"
+                    android:textSize="13sp"
+                    tools:text="2017-05-02 20:08:20" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/tv_item_performance_time"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text='@{itemViewModel.model.vipName+@string/mh}'
+                        android:textSize="13sp"
+                        tools:text="张三:" />
+
+                    <TextView
+                        android:id="@+id/phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{itemViewModel.model.vipPhone}"
+                        android:textSize="13sp"
+                        tools:text="12345678911" />
+                </LinearLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/card_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="卡号："
+                    android:textSize="13sp"
+                    tools:text="卡号:" />
+
+                <TextView
+                    android:id="@+id/card_no_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/card_tv"
+                    android:text="@{itemViewModel.model.vipUserCardNo}"
+                    android:textSize="13sp"
+                    tools:text="5678178956325687" />
+
+                <TextView
+                    android:id="@+id/vip_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text='@{@string/fuhao+AppUtil.formatStandardMoney(itemViewModel.model.rechargeAmt)}'
+                    android:textColor="@color/text_money"
+                    android:textSize="13sp"
+                    tools:text="¥400" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/up_ll"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_or_margin"
+            android:layout_toRightOf="@+id/iv0"
+            android:drawableLeft="@mipmap/shouyinriqi"
+            android:drawablePadding="@dimen/iv_tv_padding"
+            android:gravity="center_vertical"
+            android:text="日期" />
+
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_or_margin"
+            android:text="" />
+    </RelativeLayout>
+
+    <include layout="@layout/line_h_normal" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_or_margin"
+            android:layout_toRightOf="@+id/iv0"
+            android:drawableLeft="@mipmap/shouyinshijian"
+            android:drawablePadding="@dimen/iv_tv_padding"
+            android:gravity="center_vertical"
+            android:text="时间" />
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_or_margin"
+            android:text="" />
+    </RelativeLayout>
+
+    <include layout="@layout/line_h_normal" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_or_margin"
+            android:layout_toRightOf="@+id/iv0"
+            android:drawableLeft="@mipmap/shouyinjine"
+            android:drawablePadding="@dimen/iv_tv_padding"
+            android:gravity="center_vertical"
+            android:text="金额" />
+
+        <TextView
+            android:id="@+id/money_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_or_margin"
+            android:text=""
+            android:textColor="@color/text_money" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/bg" />
+
+</LinearLayout>

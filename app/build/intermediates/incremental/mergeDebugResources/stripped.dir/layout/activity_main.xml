@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    
+
+                                             
+
+                                                 
+
+                                          
+
+                 
+                            
+                              
+
+                 
+                                
+                                                               
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/shouye_bg" android:tag="layout/activity_main_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/status_bar_height" />
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/view"
+            tools:text="派特帕克宠物公园"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            background="@color/text_normal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title_tv"
+            android:orientation="vertical"
+            android:background="@mipmap/main_bg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rl0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_main_select"
+                    android:clickable="true">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@mipmap/collect_money"
+                        android:gravity="center_vertical"
+                        android:tag="binding_1"       
+                        android:textColor="@android:color/white"
+                        android:textSize="24dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_main_select"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@mipmap/vip_icon"
+                        android:gravity="center"
+                        android:tag="binding_2"       
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <RelativeLayout
+                    android:id="@+id/rl3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/shape_main_select"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawableTop="@mipmap/ku_cun"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:tag="binding_3"       
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rl4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/shape_main_select"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawableTop="@mipmap/ye_ji"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:tag="binding_4"       
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:tag="binding_5"                                               >
+
+                <RelativeLayout
+                    android:id="@+id/rl5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/shape_main_select"
+                    android:orientation="horizontal"
+                    android:tag="binding_6"                                               >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawableTop="@mipmap/cun_xiao"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:tag="binding_7"       
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/rl1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_main_select"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:tag="binding_8"                                               >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:drawableTop="@mipmap/yu_yue"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:tag="binding_9"       
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/rl7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/shape_main_select"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawableTop="@mipmap/pan_dian"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:tag="binding_10"      
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/shape_main_select"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawableTop="@mipmap/guan_li"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:tag="binding_11"      
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_below="@+id/view"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:orientation="vertical">-->
+
+
+
+            <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/rl1"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="0dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="5dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@drawable/selector_red_1_btn_bg"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:clickable="true">&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:drawableLeft="@mipmap/shangpin"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:drawablePadding="7dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="center_vertical"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@{nameArray[1]}"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="28dp" />&ndash;&gt;-->
+            <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_weight="3"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="0dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:id="@+id/rl1"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_weight="2"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:background="@drawable/selector_blue_btn_bg"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:clickable="true"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_centerVertical="true"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawableLeft="@mipmap/yuyue"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawablePadding="5dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:text="@{nameArray[1]}"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textSize="24sp" />&ndash;&gt;-->
+                    <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:id="@+id/rl2"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_weight="3"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:background="@drawable/selector_green_btn_bg"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:clickable="true"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawableLeft="@mipmap/cuxiao"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawablePadding="5dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:text="@{nameArray[2]}"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textSize="24sp" />&ndash;&gt;-->
+                    <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="0dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:id="@+id/rl3"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_weight="3"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:background="@drawable/selector_red_2_btn_bg"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:clickable="true"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawableLeft="@mipmap/kucun"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawablePadding="5dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:text="@{nameArray[3]}"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textSize="24sp" />&ndash;&gt;-->
+                    <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:id="@+id/rl4"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_weight="2"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:background="@drawable/selector_blue_btn_bg"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:clickable="true"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawableLeft="@mipmap/huiyuan"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawablePadding="5dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:text="@{nameArray[4]}"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textSize="24sp" />&ndash;&gt;-->
+                    <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="0dp"-->
+                    <!--android:layout_marginTop="5dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:id="@+id/rl5"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_weight="3"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:background="@drawable/selector_blue_btn_bg"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:clickable="true"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawableLeft="@mipmap/jiezhang"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawablePadding="5dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:text="@{nameArray[5]}"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textSize="24sp" />&ndash;&gt;-->
+                    <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:id="@+id/rl6"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_weight="4"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:background="@drawable/selector_yellow_btn_bg"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:clickable="true"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawableLeft="@mipmap/huiyuankada"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:drawablePadding="5dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:text="@{nameArray[6]}"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textSize="24sp" />&ndash;&gt;-->
+                    <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+                <!--</LinearLayout>-->
+
+
+            <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+         

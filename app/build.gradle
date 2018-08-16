@@ -1,0 +1,108 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "ys.app.petproject"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 20
+        versionName "1.2.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags "-frtti -fexceptions"
+                abiFilters "armeabi-v7a"
+            }
+        }
+        multiDexEnabled true
+    }
+
+
+    signingConfigs {
+        release {
+            File strFile = new File("feedkey.jks")
+            storeFile file(strFile)
+            storePassword "feed2016"
+            keyAlias "feedkey"
+            keyPassword "feed2016"
+        }
+
+    }
+    buildTypes {
+        release {
+            buildConfigField "boolean", "LOG", "false"
+            minifyEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG", "true"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    /*针对greenDao的一些配置*/
+    greendao {
+        schemaVersion 4 //数据库版本号
+        daoPackage 'com.greendao' //自动生成的工具类的包名
+        targetGenDir 'src/main/java-gen' //路径
+    }
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java', 'src/main/java-gen', 'src/main/res/color']
+            res.srcDirs = ['src/main/res', 'src/main/res/color']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+repositories {
+    flatDir { dirs 'libs' }
+    google()
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/barlibrary-2.2.2.jar')
+    compile supportDependencies.supportV7
+    compile supportDependencies.design
+    //    compile supportDependencies.recyclerview
+    compile retrofitDependencies.gson
+    compile retrofitDependencies.okhttp
+    compile retrofitDependencies.fastjson
+    compile retrofitDependencies.retrofit
+    compile retrofitDependencies.rxAdapterJava
+    compile retrofitDependencies.loging
+    compile rxDependencies.rxAndroid
+    compile rxDependencies.rxJava
+    compile glide
+    compile greendaoDependencies.greendao
+    compile greendaoDependencies.generator
+    compile bottomsheet
+    //数据库调试调试
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:25.3.1'
+    debugCompile 'com.amitshekhar.android:debug-db:1.0.0'
+    compile 'com.sunmi:DS_Lib:1.0.9'
+    //商米提供的lib库，包含已封装好的接口
+    compile 'com.android.support:multidex:1.0.0'
+    implementation files('libs/core-3.3.0.jar')
+    implementation files('libs/sunmiscan.jar')
+    compile(name: 'SunmiPayService', ext: 'aar')
+    compile 'com.github.promeg:tinypinyin:1.0.0'
+    compile files('libs/gprintersdkv1.jar')
+}

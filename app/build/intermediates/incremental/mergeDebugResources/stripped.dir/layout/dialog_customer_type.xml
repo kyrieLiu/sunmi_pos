@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    
+
+                                                 
+
+                                           
+
+                 
+                            
+                                                                       
+           
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_dialog_bg" android:tag="layout/dialog_customer_type_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabLayout"
+                    style="@style/CustomTabLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="8dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/not_vip_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        android:tag="binding_1"                                               
+                        tools:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/shape_login_input"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/TCdarkTS13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="center_vertical"
+                                android:text="顾客姓名 :" />
+
+                            <EditText
+                                android:id="@+id/name_et"
+                                style="@style/TCdarkTS13"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:gravity="center_vertical"
+                                android:maxLines="1"
+                                android:tag="binding_2"            />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/shape_login_input"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/TCdarkTS13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="6dp"
+                                android:gravity="center_vertical"
+                                android:text="顾客手机 :" />
+
+                            <EditText
+                                android:id="@+id/phone_et"
+                                style="@style/TCdarkTS13"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:gravity="center_vertical"
+                                android:maxLines="1"
+                                android:tag="binding_3"             />
+                        </LinearLayout>
+
+
+                        <include layout="@layout/line_h_normal" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp">
+
+
+                            <LinearLayout
+                                android:id="@+id/down_ll"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="20dp"
+                                android:orientation="horizontal">
+
+                                <RelativeLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:id="@+id/cancel_tv"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:tag="binding_4"                 
+                                        android:text="跳过"
+                                        android:textColor="#666666"
+                                        android:textSize="14sp" />
+                                </RelativeLayout>
+
+                                <View
+                                    android:layout_width="1px"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/line_divide_normal" />
+
+                                <RelativeLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <TextView
+                                        android:id="@+id/ok_tv"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="center"
+                                        android:tag="binding_5"                   
+                                        android:text="确定"
+                                        android:textColor="@color/color_main"
+                                        android:textSize="14sp" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/vip_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        android:tag="binding_6"                                               >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <EditText
+                                android:id="@+id/vip_phone_et"
+                                style="@style/TCdarkTS13"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/shape_login_input"
+                                android:gravity="center_vertical"
+                                android:hint="会员手机号/名字"
+                                android:maxLines="1"
+                                android:paddingLeft="10dp"
+                                android:tag="binding_7"                />
+
+                            <ImageView
+                                android:id="@+id/iv_dialog_search_card"
+                                android:layout_width="30dp"
+                                android:layout_height="match_parent"
+                                android:layout_centerVertical="true"
+                                android:paddingLeft="@dimen/dp_5"
+                                android:paddingRight="@dimen/dp_5"
+                                android:tag="binding_8"                          
+                                android:scaleType="center"
+                                                                                                                            
+                                android:src="@mipmap/huiyuanka" />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/rl_dialog_collect_vip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp" />
+
+                            <ImageView
+                                android:id="@+id/noneDataIv"
+                                style="@style/NoneDataIv"
+                                android:layout_below="@id/tool_bar"
+                                android:src="@mipmap/none_data"
+                                android:tag="binding_9"                                                    />
+
+                            <ImageView
+                                android:id="@+id/networkErrorIv"
+                                style="@style/NetworkErrorIv"
+                                android:layout_below="@id/tool_bar"
+                                android:tag="binding_10"                          
+                                android:src="@mipmap/network_error"
+                                                                                                               />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_below="@id/tool_bar"
+                                android:background="@color/bg"
+                                android:tag="binding_11"                                                 >
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:src="@mipmap/yyp" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressbar"
+                                    style="@style/RequestProgressStyle"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_centerInParent="true" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        android:tag="binding_12"                                              
+                        tools:visibility="gone">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rl_dialog_collect_onlyDiscount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp" />
+
+                        <ImageView
+                            style="@style/NoneDataIv"
+                            android:layout_below="@id/tool_bar"
+                            android:src="@mipmap/none_data"
+                            android:tag="binding_13"                                                   />
+
+                        <ImageView
+                            style="@style/NetworkErrorIv"
+                            android:layout_below="@id/tool_bar"
+                            android:tag="binding_14"                          
+                            android:src="@mipmap/network_error"
+                                                                                                           />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@id/tool_bar"
+                            android:background="@color/bg"
+                            android:tag="binding_15"                                                 >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:src="@mipmap/yyp" />
+
+                            <ProgressBar
+                                style="@style/RequestProgressStyle"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+         

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\bottomsheet-core-1.5.1.aar\\6b2be451cd4dffc372445cbe6c71e5a5\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,63",
+                        "endOffsets": "101,165"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\bottomsheet-core-1.5.1.aar\\6b2be451cd4dffc372445cbe6c71e5a5\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,63",
+                        "endOffsets": "101,165"
+                    }
+                }
+            ]
+        }
+    ]
+}

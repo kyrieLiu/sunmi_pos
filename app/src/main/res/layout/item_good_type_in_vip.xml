@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="ItemGoodTypeInVipBinding">
+
+        <import type="android.view.View" />
+
+        <import type="ys.app.petproject.utils.AppUtil" />
+        <variable
+            name="itemViewModel"
+            type="ys.app.petproject.viewmodel.GoodTypeInVipItemViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <EditText
+            android:id="@+id/zhekou_tv"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/text_money"
+            android:maxLength="2"
+            android:text="@={itemViewModel.obGoodCost}"
+            app:background="@{itemViewModel.editTextEditable}"
+            app:onTextChangedListener="@{itemViewModel.textChangeListener}"
+            app:editTextEditable="@{itemViewModel.editTextEditable}"
+            tools:text="98" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/zhekou_tv"
+            android:text="@{itemViewModel.mIsAddVipCard?itemViewModel.model.name:itemViewModel.model.classifyName}"
+            tools:text="主粮系列 : " />
+
+        <TextView
+            android:id="@+id/zhe_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/zhekou_tv"
+            android:text="@string/zhe" />
+
+
+    </RelativeLayout>
+
+</layout>

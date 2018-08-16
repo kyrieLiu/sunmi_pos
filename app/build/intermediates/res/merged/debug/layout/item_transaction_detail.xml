@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                                                         
+
+                                           
+
+                 
+                                
+                                                                                
+           
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_2.5"
+        android:background="@android:color/white" android:tag="layout/item_transaction_detail_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                <LinearLayout
+                    android:id="@+id/ll_item_transaction_staff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dp_5">
+
+                    <TextView
+                        android:id="@+id/employee_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/modify_tv"
+                        android:tag="binding_1"                 
+                                                                                                                   
+                        android:textSize="@dimen/sp_6_5"
+                        tools:text="吕西施" />
+
+                    <TextView
+                        android:id="@+id/modify_tv"
+                        android:layout_width="60dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:background="@drawable/shape_select_input"
+                        android:gravity="center"
+                        android:tag="binding_2"                                     
+                        android:text="修改绩效"
+                        android:textColor="@color/color_main"
+                        android:textSize="@dimen/sp_5_5"
+                                                                                                                                       
+                        tools:text="修改绩效" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/ll_item_transaction_staff"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:id="@+id/name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="binding_3"                   
+                                                                                                                   
+                        tools:text="比熊犬" />
+
+                    <TextView
+                        android:id="@+id/type_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="binding_4"                              
+                                                                                                                   
+                        tools:text="(活体)" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_marginTop="@dimen/dp_5"
+                >
+
+                <LinearLayout
+                    android:id="@+id/ll_item_transaction_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true">
+                    <TextView
+                        android:id="@+id/total_money_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_money"
+                        android:tag="binding_5"                         
+                        tools:text="总价：￥150" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:text="(已退款)"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:textSize="@dimen/sp_6"
+                        android:tag="binding_6"                                                       
+                        />
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="23dp"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:text="退款"
+                        android:layout_alignParentRight="true"
+                        android:textSize="@dimen/sp_5_5"
+                        android:tag="binding_7"                              
+                        android:background="@drawable/selector_press_button_empty"
+                        android:gravity="center"
+                                                                                              
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp_5"
+                    android:gravity="center_vertical"
+                    android:layout_toLeftOf="@+id/ll_item_transaction_price"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dp_2.5"
+                        android:tag="binding_8"                                                                    
+                                                                  
+                                                                            
+                                                                      
+                                                                                      
+                        tools:text="￥50" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:tag="binding_9"                                               
+                                                                                                                   
+                        tools:text="× 3" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5"
+                android:tag="binding_10"                                                      >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/sp_5_5"
+                    android:tag="binding_11"                  
+                                                                        
+                                                                    
+                    tools:text="参与折上折" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line_divide_normal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/zengsong"
+            android:tag="binding_12"                                                       />
+
+    </RelativeLayout>
+         

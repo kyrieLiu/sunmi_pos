@@ -1,0 +1,714 @@
+[
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chukujiage.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\chukujiage.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\main_bg.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\main_bg.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\back.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\back.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yinhangka.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\yinhangka.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shanchuwenben.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shanchuwenben.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\vip_icon.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\vip_icon.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\white.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\white.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\juxing_normal.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\juxing_normal.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\kucunshuliang.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\kucunshuliang.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\select.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\select.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\cuxiao.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\cuxiao.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tongji.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\tongji.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\lansefangdajing.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\lansefangdajing.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\arrow_down_grey.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\arrow_down_grey.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\jiesuan.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\jiesuan.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\pop.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\pop.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shouyinriqi.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shouyinriqi.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\arrow_up_grey.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\arrow_up_grey.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\fuwu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\fuwu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\guanli.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\guanli.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\left_icon.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\left_icon.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\square_no_select.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\square_no_select.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\setting_switch_on.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\setting_switch_on.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhifubao.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\zhifubao.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\cat.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\cat.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiugaimima2.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\xiugaimima2.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shouyin.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shouyin.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\bianji.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\bianji.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\guanlishouye.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\guanlishouye.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\arrow_down2.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\arrow_down2.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\fuwukucun.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\fuwukucun.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuan.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuan.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chongzhichenggong.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\chongzhichenggong.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\choose_normal.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\choose_normal.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\fuwukuchun.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\fuwukuchun.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chongxinzhifu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\chongxinzhifu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\touying.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\touying.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\open.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\open.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\loag_img_dark.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\loag_img_dark.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\qiehuanjiantou.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\qiehuanjiantou.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yikoujia.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\yikoujia.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chukuyuanyin.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\chukuyuanyin.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\square_select.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\square_select.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shangpinmingcheng.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shangpinmingcheng.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\weixinzhifu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\weixinzhifu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dialog_select.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\dialog_select.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\upload_img.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\upload_img.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_remove_circle_outline_black.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\ic_remove_circle_outline_black.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\load_img_circle_normal.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\load_img_circle_normal.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\first.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\first.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\guadan.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\guadan.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuankalanbeijing.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuankalanbeijing.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xinzengchongwu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\xinzengchongwu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\qiehuan.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\qiehuan.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yuangongguanli.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\yuangongguanli.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shangpin.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shangpin.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\saoyisao.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\saoyisao.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\jinjia.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\jinjia.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\clock.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\clock.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuantouying.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuantouying.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yu_yue.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\yu_yue.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\arrow_down.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\arrow_down.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\less.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\less.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\lishi.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\lishi.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuanka.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuanka.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yuangongguanli2.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\yuangongguanli2.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\gonghao.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\gonghao.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shangpinkucun.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shangpinkucun.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shouye_bg.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shouye_bg.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shangpinfuwu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shangpinfuwu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\edit_small.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\edit_small.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\add.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\add.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\jilu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\jilu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dangqianyue.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\dangqianyue.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\twitter_pull_arrow.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\twitter_pull_arrow.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chukushuliang.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\chukushuliang.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dog.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\dog.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\youjiantou_dark.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\youjiantou_dark.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\login_right.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\login_right.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tiaoxingma.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\tiaoxingma.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\lansesaomiao.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\lansesaomiao.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\home_1.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\home_1.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xinzengshangpin.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\xinzengshangpin.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\back_blue.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\back_blue.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\second.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\second.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\blackshangpin.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\blackshangpin.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shibai.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shibai.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\loading.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\loading.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\add_animal.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\add_animal.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\login_me.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\login_me.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yyp.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\yyp.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shouyinjine.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shouyinjine.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuankatouming.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuankatouming.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\fangdajingxiao.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\fangdajingxiao.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuankabeijing.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuankabeijing.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhekou.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\zhekou.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shouyinshijian.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shouyinshijian.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yuyue.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\yuyue.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\mima.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\mima.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chengben.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\chengben.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiaoshoujia.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\xiaoshoujia.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\youjiantou.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\youjiantou.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\delete_pet.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\delete_pet.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\youhui.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\youhui.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\blackfuwu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\blackfuwu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\whiteshangpin.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\whiteshangpin.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\delete.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\delete.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\crop_image_menu_rotate_right.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\crop_image_menu_rotate_right.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\setting_switch_off.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\setting_switch_off.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\jiezhang.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\jiezhang.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhifushibai.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\zhifushibai.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuankashezhi.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuankashezhi.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\bianji2.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\bianji2.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shanchu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shanchu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\juxing_bule_select.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\juxing_bule_select.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shangpinpandian.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shangpinpandian.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\back_grey_select.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\back_grey_select.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xianjin.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\xianjin.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiugai.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\xiugai.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dialog_normal.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\dialog_normal.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shangpinicon.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shangpinicon.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tanchuangbeijing.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\tanchuangbeijing.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chongzhijine.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\chongzhijine.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuankaguanli.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuankaguanli.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\danwei.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\danwei.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dangrijiezhang.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\dangrijiezhang.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xinzengfuwu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\xinzengfuwu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuankazhifu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuankazhifu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\cun_xiao.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\cun_xiao.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuankada.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuankada.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\back_blue_select.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\back_blue_select.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\none_data.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\none_data.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\home_2.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\home_2.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\line_et.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\line_et.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\load_img_normal.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\load_img_normal.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ku_cun.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\ku_cun.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zengsong.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\zengsong.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\crop_image_menu_rotate_left.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\crop_image_menu_rotate_left.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dingdan.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\dingdan.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\leixing.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\leixing.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\change.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\change.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\mei_rong_down.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\mei_rong_down.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\nv.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\nv.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\close.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\close.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\whitefuwu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\whitefuwu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\pan_dian.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\pan_dian.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiugaimima.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\xiugaimima.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\collect_money.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\collect_money.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\nan.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\nan.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\jiarugouwuche.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\jiarugouwuche.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\manager.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\manager.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shangpinruku.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shangpinruku.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiexian.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\xiexian.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\bg_shopcar.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\bg_shopcar.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\halfsircle.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\halfsircle.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dangtianjiesuan.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\dangtianjiesuan.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ye_ji.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\ye_ji.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shangpinchuku.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\shangpinchuku.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chongzhi.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\chongzhi.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chongzhi2.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\chongzhi2.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\third.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\third.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yuangong.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\yuangong.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\fangdajing.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\fangdajing.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_add_circle_outline_black.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\ic_add_circle_outline_black.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\network_error.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\network_error.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\kucun.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\kucun.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\pandianjilu.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\pandianjilu.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\huiyuanxingming.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\huiyuanxingming.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\qq_refresh_success.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\qq_refresh_success.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yizuofei.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\yizuofei.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xinzeng.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\xinzeng.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\start.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\start.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\other.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\other.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\saoyisaoheise.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\saoyisaoheise.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tuoyuan.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\tuoyuan.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\touming.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\touming.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\guan_li.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xhdpi\\guan_li.png"
+    }
+]

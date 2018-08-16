@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <!--<TextView
+            android:id="@+id/tv_add_dialog_isGift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="非赠品"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/text_hint"
+            />-->
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:focusableInTouchMode="true"
+            android:text="添加商品"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/cancel_tv"
+            style="@style/ThemeButtonNormal"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_or_margin"
+            android:layout_marginRight="@dimen/padding_or_margin"
+            android:text="取消" />
+        <Button
+            android:id="@+id/tv_add_dialog_isGift"
+            style="@style/ThemeButtonNormal"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/cancel_tv"
+            android:text="非赠送"
+            />
+    </RelativeLayout>
+
+    <include layout="@layout/line_h_normal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/name_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_or_margin"
+                    android:text="商品名称 :"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/price_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_or_margin"
+                    android:text="商品价格 :"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="110dp"
+                    android:layout_height="22dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/price_et"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:cursorVisible="true"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:textColor="@color/text_money"
+                        android:textSize="15sp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        style="@style/TCredTS14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="元" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/line_dark" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/num_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/num_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_or_margin"
+                    android:text="商品数量 :"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/jianhao_iv"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/less" />
+                <EditText
+                    android:id="@+id/num_et"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:cursorVisible="true"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="1"
+                    android:textColor="#000000"
+                    android:paddingLeft="5dp"
+                    android:textSize="15sp" />
+
+
+                <ImageView
+                    android:id="@+id/jiahao_tv"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/add" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/select_employee_ll"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_20"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_or_margin"
+                    android:text="销售员工 :"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/select_employee_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="请选择员工"
+                    android:textColorHint="@color/text_hint"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/line_h_normal" />
+
+    <ys.app.petproject.widget.KeyboardLayout
+        android:id="@+id/keyboardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp_5"/>
+</LinearLayout>

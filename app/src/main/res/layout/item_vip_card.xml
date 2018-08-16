@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="ItemVipCardBinding">
+
+        <import type="ys.app.petproject.utils.AppUtil" />
+        <import type="android.view.View" />
+        <variable
+            name="itemViewModel"
+            type="ys.app.petproject.viewmodel.manage.VipCardItemViewModel" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:onClick="@{itemViewModel.clickOpenOrClose}">
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="fill_parent"
+                android:layout_toLeftOf="@+id/option_lay"
+                android:ellipsize="end"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_or_margin"
+                android:drawableLeft="@mipmap/huiyuanka"
+                android:drawablePadding="@dimen/iv_tv_padding"
+                android:text="@{itemViewModel.model.name}"
+                android:textColor="@color/color_main" />
+
+            <LinearLayout
+                android:id="@+id/option_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_or_margin">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:visibility="@{itemViewModel.obShowType==0?View.VISIBLE:View.GONE}"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/ThemeButtonNormal"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"
+                        android:onClick="@{itemViewModel.edit}"
+                        android:text="编辑"
+                        android:visibility="@{itemViewModel.model.state==3?View.GONE:View.VISIBLE}"
+                        android:textSize="13sp" />
+
+                    <Button
+                        android:id="@+id/bt_vipCard_cancellation"
+                        style="@style/ThemeButtonNormal"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"
+                        android:onClick="@{itemViewModel.obsolete}"
+                        android:visibility="@{itemViewModel.model.classification==2?View.GONE:View.VISIBLE}"
+                        android:text="作废"
+                        android:textSize="13sp" />
+
+                    <Button
+                        android:id="@+id/bt_vipCard_delete"
+                        style="@style/ThemeButtonNormal"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"
+                        android:onClick="@{itemViewModel.delete}"
+                        android:text="删除"
+                        android:textSize="13sp" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bt_vipCard_select"
+                    style="@style/ThemeButtonNormal"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:text="选择"
+                    android:visibility="@{itemViewModel.obShowType==1?View.VISIBLE:View.GONE}"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <include layout="@layout/line_h_normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:viewCount="@{itemViewModel.viewCount}"
+            app:isClicked="@{itemViewModel.model.isClick}"
+            app:isVisible="@{itemViewModel.model.expand}"
+            android:visibility="gone"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="商品折扣：" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                app:goodsTypeAdapterData="@{itemViewModel.model.cardDiscountList}"
+                app:isAddVipCard="@{itemViewModel.obIsIsAddVipCard}"
+                app:isInput="@{itemViewModel.obIsInput}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="服务折扣：" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                app:isAddVipCard="@{itemViewModel.obIsIsAddVipCard}"
+                app:isInput="@{itemViewModel.obIsInput}"
+                app:serviceTypeAdapterData="@{itemViewModel.model.cardDiscountList2}" />
+
+            <include layout="@layout/line_h_normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/ThemePressLeftBg"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="@{itemViewModel.cardMembers}"
+                    android:visibility="@{itemViewModel.model.classification!=2?View.VISIBLE:View.GONE}"
+                    android:text="持卡会员" />
+
+                <include layout="@layout/line_v_normal" />
+
+                <TextView
+                    style="@style/ThemePressLeftBg"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="@{itemViewModel.set}"
+                    android:visibility="gone"
+                    android:text="服务设置" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

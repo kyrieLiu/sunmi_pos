@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="true">
+
+        <TextView
+            android:id="@+id/tv_item_good_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/text_dark"
+            tools:text="商品名称商品名称商品名称商品名称商品名称商品名称商品名称" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/tv_item_good_name"
+            android:background="@color/text_light"></View>
+
+    </RelativeLayout>
+
+</layout>

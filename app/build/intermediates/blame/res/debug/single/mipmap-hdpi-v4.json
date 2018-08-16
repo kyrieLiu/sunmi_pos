@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\scan_laser.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-hdpi\\scan_laser.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\icon_20180620.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-hdpi\\icon_20180620.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\scan_background.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-hdpi\\scan_background.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\icon_notshow_vip_price.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-hdpi\\icon_notshow_vip_price.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\icon_show_vip_price.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-hdpi\\icon_show_vip_price.png"
+    }
+]

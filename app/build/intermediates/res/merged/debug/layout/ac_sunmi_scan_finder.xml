@@ -1,0 +1,80 @@
+
+                                                   
+
+    
+
+                 
+                            
+                                                                  
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" android:tag="layout/ac_sunmi_scan_finder_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <EditText
+            android:id="@+id/et_auth_code"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:focusable="true"
+            android:imeOptions="actionSearch"
+            android:inputType="number"
+            android:singleLine="true" />
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/status_bar_height"
+            android:background="@color/white" />
+        <include
+            android:id="@+id/view_tool_bar"
+            layout="@layout/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/view" />
+
+        <LinearLayout
+            android:id="@+id/text_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_tool_bar"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="请扫描顾客收款码进行收款"
+                android:textColor="@color/text_money"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_personal_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text_lay">
+
+
+            <SurfaceView
+                android:id="@+id/surface_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ys.app.petproject.shangmi.scan.FinderView
+                android:id="@+id/finder_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+         

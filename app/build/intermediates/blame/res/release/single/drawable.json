@@ -1,0 +1,482 @@
+[
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_red_1_btn_bg_not_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\home_red_1_btn_bg_not_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_delete.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_delete.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_recyclerview_division_line.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_recyclerview_division_line.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_child_up_line.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_child_up_line.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_title_right_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_title_right_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_green_btn_bg_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\home_green_btn_bg_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_main_select.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_main_select.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_yellow_btn_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_yellow_btn_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_press_back_blue.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_press_back_blue.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_press_and_enable_button_color.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_press_and_enable_button_color.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_press_button.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_press_button.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_login_input.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_login_input.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_button_grey.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_button_grey.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_c_white.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_c_white.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_pop_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_pop_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_press_button_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_press_button_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_red_1_btn_bg_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\home_red_1_btn_bg_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tool_bar_line.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_tool_bar_line.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_red_2_btn_bg_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\home_red_2_btn_bg_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\edit_select_handle.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\edit_select_handle.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_search_input_white_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_search_input_white_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_login_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_login_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_left_select.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_left_select.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_recyclerview_division.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_recyclerview_division.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_blue_btn_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_blue_btn_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_login.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_login.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_press_button_empty.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_press_button_empty.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\edit_cursor.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\edit_cursor.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\empty.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\empty.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_press_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_press_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_select_input.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_select_input.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_select_icon.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_select_icon.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_custom_keyboard.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_custom_keyboard.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_line_light_transparent.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_line_light_transparent.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_input_enable.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_input_enable.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_press_back_grey.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_press_back_grey.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_red_2_btn_bg_not_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\home_red_2_btn_bg_not_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\pop_goods_service.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\pop_goods_service.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_title_right.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_title_right.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_service_set.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_btn_service_set.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_yellow_2_btn_bg_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\home_yellow_2_btn_bg_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_select_dialog_content_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_select_dialog_content_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_title_left_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_title_left_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_button_dark.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_button_dark.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_red_2_btn_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_red_2_btn_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_child_down_line.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_child_down_line.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_red_1_btn_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_red_1_btn_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_grey_input.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_grey_input.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_green_btn_bg_not_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\home_green_btn_bg_not_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_white_rectangle_gradient.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_white_rectangle_gradient.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_title_left.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_title_left.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_search_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_search_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_title_left_select.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_title_left_select.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_press_button_color.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_press_button_color.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_button_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_button_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_dash_line_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_dash_line_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_search_input_dark_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_search_input_dark_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_c_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_c_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_line_light.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_line_light.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_custom_keyboard.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_custom_keyboard.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_kuchun_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_kuchun_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_confirm.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_confirm.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_blue_btn_bg_not_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\home_blue_btn_bg_not_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_left_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_left_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_title_right_select.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_title_right_select.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\request_progressbar.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\request_progressbar.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dash_line.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\dash_line.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_button_selector.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_button_selector.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_white_input.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_white_input.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_login_me.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_login_me.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_blue_btn_bg_normal.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\home_blue_btn_bg_normal.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_back.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_back.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\switch_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\switch_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_dialog_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_dialog_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_title_text.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_title_text.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_green_btn_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_green_btn_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_select_dialog_icon.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_select_dialog_icon.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_select_title_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_select_title_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_button_custom_keyboard.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_button_custom_keyboard.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_yellow_2_btn_bg_select.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\home_yellow_2_btn_bg_select.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_b_input.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_b_input.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_left_rectangle.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\selector_left_rectangle.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e6f6f02e743722c4c09860a90743a07b\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_search_input_bg.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_search_input_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\liuyin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\90c604c05d30c4593804ff75ea90951d\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_select_fold.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_select_fold.xml"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_shopcar_data.xml",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\drawable\\shape_shopcar_data.xml"
+    }
+]

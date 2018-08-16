@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="ItemServiceSettingsBinding">
+
+        <variable
+            name="itemViewModel"
+            type="ys.app.petproject.viewmodel.ServiceSettingsItemViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/padding_or_margin"
+        android:layout_marginRight="@dimen/padding_or_margin"
+        android:background="@drawable/shape_login_input"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="@{itemViewModel.model.name}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="是否参与折扣" />
+
+
+        <CheckBox
+            style="@style/selector_btn_service_set"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="#00000000"
+            android:checked="@{itemViewModel.model.cardType==1?true:false}"
+            android:gravity="center_vertical"
+            android:textOff=""
+            android:textOn=""
+            app:OnCheckedChangeListener="@{itemViewModel.checkedChangeListener}" />
+
+    </RelativeLayout>
+</layout>

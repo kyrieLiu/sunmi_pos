@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/bt_popup_item1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="补打小票"
+            android:background="@drawable/selector_press_button_empty"
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/bt_popup_item2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="全额退款"
+            android:textSize="15sp"
+            android:background="@drawable/selector_press_button_empty"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/bt_popup_item3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="取消"
+            android:background="@drawable/selector_press_button_empty"
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+</LinearLayout>

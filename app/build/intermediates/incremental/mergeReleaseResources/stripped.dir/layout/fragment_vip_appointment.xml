@@ -1,0 +1,468 @@
+
+                                                   
+    
+                     
+                                
+                                                                                              
+           
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/padding_or_margin"
+        android:background="@color/bg" android:tag="layout/fragment_vip_appointment_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:paddingBottom="@dimen/padding_or_margin"
+           >
+
+
+            <TextView
+                android:id="@+id/et_appointment_search"
+                style="@style/TCdarkTS13"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/shape_login_input"
+                android:drawableLeft="@mipmap/fangdajing"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:hint="会员名字/手机号"
+                android:maxLines="1"
+                android:paddingLeft="10dp" />
+            <LinearLayout
+                android:id="@+id/ll_addGoods_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/et_appointment_search"
+                >
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="@dimen/iv_tv_padding"
+                        android:src="@mipmap/huiyuanxingming" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="会员姓名:" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:tag="binding_1"            
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:background="@color/text_hint"
+                    ></View>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="@dimen/iv_tv_padding"
+                        android:src="@mipmap/jinjia" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="会员电话:" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:tag="binding_2"             
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:background="@color/text_hint"
+                    ></View>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="@dimen/iv_tv_padding"
+                        android:src="@mipmap/huiyuanka" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:text="会员卡号:" />
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:tag="binding_3"              
+                        />
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_login_input">
+
+                    <ImageView
+                        android:id="@+id/iv_end"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@mipmap/chongwumingcheng"
+                        android:layout_marginLeft="13dp"
+                        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/tv_appointment_end_title"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/iv_end"
+                        android:text="选择爱宠:" />
+
+
+                    <TextView
+                        android:id="@+id/iv_appointment_end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:tag="binding_4"                    
+                        android:drawableRight="@mipmap/arrow_down"></TextView>
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/iv_appointment_end"
+                        android:layout_toRightOf="@+id/tv_appointment_end_title"
+                        android:tag="binding_5"                    
+                                                           
+                        android:hint="请选择爱宠"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_login_input">
+
+                    <ImageView
+                        android:id="@+id/iv_server"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@mipmap/fuwu"
+                        android:layout_marginLeft="13dp"
+                        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/tv_appointment_server_title"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/iv_server"
+                        android:text="选择服务:" />
+
+
+                    <TextView
+                        android:id="@+id/iv_appointment_server"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:tag="binding_6"                          
+                        android:drawableRight="@mipmap/arrow_down"></TextView>
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/iv_appointment_server"
+                        android:layout_toRightOf="@+id/tv_appointment_server_title"
+                        android:hint="请选择服务类型"
+                        android:tag="binding_7"           
+                                                                         
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_login_input">
+
+                    <ImageView
+                        android:id="@+id/iv_server_detail"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@mipmap/fuwu"
+                        android:layout_marginLeft="13dp"
+                        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/tv_appointment_server_detail_title"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/iv_server_detail"
+                        android:text="服务事项:" />
+
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv_appointment_server_detail_title"
+                        android:hint="请选择服务事项"
+                        android:tag="binding_8"                 
+                                                                               
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_login_input">
+
+                    <ImageView
+                        android:id="@+id/iv_appointment_employee"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@mipmap/huiyuanxingming"
+                        android:layout_marginLeft="13dp"
+                        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/tv_appointment_employee_title"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/iv_appointment_employee"
+                        android:text="选择员工:" />
+
+
+                    <TextView
+                        android:id="@+id/tv_appointment_employee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:tag="binding_9"                            
+                        android:drawableRight="@mipmap/arrow_down"></TextView>
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:layout_toLeftOf="@+id/tv_appointment_employee"
+                        android:layout_toRightOf="@+id/tv_appointment_employee_title"
+                        android:hint="请选择员工"
+                        android:tag="binding_10"                
+                                                                           
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_login_input">
+
+                    <ImageView
+                        android:id="@+id/iv_appointment"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@mipmap/shengchanriqi"
+                        android:layout_marginLeft="13dp"
+                        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/tv_appointment_time_title"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/iv_appointment"
+                        android:text="预约日期:" />
+
+                    <TextView
+                        android:id="@+id/iv_appointment_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:tag="binding_11"                                  
+                        android:drawableRight="@mipmap/arrow_down"></TextView>
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/iv_appointment_time"
+                        android:layout_toRightOf="@+id/tv_appointment_time_title"
+                        android:hint="请选择预约时间"
+                        android:maxLength="10"
+                        android:tag="binding_12"                   
+                                                                                  
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_login_input">
+
+                    <ImageView
+                        android:id="@+id/iv_appointment_day"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@mipmap/shengchanriqi"
+                        android:layout_marginLeft="13dp"
+                        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/tv_appointment_time_day_title"
+                        style="@style/TCdarkTS13"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/iv_appointment_day"
+                        android:text="当天时间:" />
+
+
+                    <TextView
+                        android:id="@+id/iv_appointment_time_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:tag="binding_13"                            
+                        android:drawableRight="@mipmap/arrow_down"></TextView>
+
+                    <TextView
+                        style="@style/TCdarkTS13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/iv_appointment_time_day"
+                        android:layout_toRightOf="@+id/tv_appointment_time_day_title"
+                        android:hint="请选择当天时间"
+                        android:tag="binding_14"             
+                                                                            
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:text="确认预约"
+                android:background="@drawable/selector_press_button_color"
+                android:textColor="@color/white"
+                android:layout_below="@+id/ll_addGoods_name"
+                android:tag="binding_15"                               
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+         

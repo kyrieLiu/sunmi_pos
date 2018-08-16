@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\footer_error.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xxhdpi\\footer_error.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\footer_loading.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xxhdpi\\footer_loading.png"
+    },
+    {
+        "merged": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\beijing_02.png",
+        "source": "F:\\pet\\pos_sunmi\\sunmi_pos\\app\\src\\main\\res\\mipmap-xxhdpi\\beijing_02.png"
+    }
+]

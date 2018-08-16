@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                                           
+
+                 
+                            
+                                                                         
+
+           
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+         android:tag="layout/fragment_service_num_list_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:id="@+id/tv_service_num_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape_login_input"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:tag="binding_1"                          
+                android:text="次卡列表"/>
+            <ImageView
+                android:id="@+id/iv_service_num_select"
+                android:layout_width="20dp"
+                android:layout_centerVertical="true"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@+id/tv_service_num_select"
+                android:src="@mipmap/change"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="binding_2"             
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                                                                                 
+                />
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ys.app.petproject.widget.wrapperRecylerView.IRecyclerView
+            android:id="@+id/rv_num_card_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="binding_3"                                          
+            app:refreshEnabled="true"
+            app:refreshHeaderLayout="@layout/layout_irecyclerview_refresh_header" />
+            <ys.app.petproject.widget.wrapperRecylerView.IRecyclerView
+                android:id="@+id/rv_num_service_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:refreshEnabled="true"
+                android:tag="binding_4"                                          
+                app:refreshHeaderLayout="@layout/layout_irecyclerview_refresh_header" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/noneDataIv"
+            style="@style/NoneDataIv"
+            android:src="@mipmap/none_data"
+            android:tag="binding_5"                                                    />
+
+        <ImageView
+            android:id="@+id/networkErrorIv"
+            style="@style/NetworkErrorIv"
+            android:tag="binding_6"                           
+            android:src="@mipmap/network_error"
+                                                                                           />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:tag="binding_7"                                                  >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/yyp" />
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="@style/RequestProgressStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </LinearLayout>
+         

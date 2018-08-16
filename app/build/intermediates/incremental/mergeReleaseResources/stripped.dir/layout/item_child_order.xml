@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                                           
+
+                                                         
+
+                 
+                                
+                                                                         
+           
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="105dp" android:tag="layout/item_child_order_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:tag="binding_1"                   
+                                                                                                               
+                    tools:text="比熊犬" />
+
+                <TextView
+                    android:id="@+id/type_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/name_tv"
+                    android:tag="binding_2"                                                                    
+                                                                                                 
+                    android:textSize="12sp"
+                    tools:text="(活体)" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:tag="binding_3"                                                                    
+                        android:textSize="13sp"
+                                                                  
+                                                                            
+                                                                      
+                                                                                      
+                        tools:text="￥50" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_line_light"
+                        android:visibility="gone"
+                        android:tag="binding_4"                             
+                                                                                      
+                        tools:visibility="visible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:tag="binding_5"                                                             
+                            android:textColor="@color/text_light"
+                            android:textSize="12sp"
+                            tools:text="￥80" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:gravity="center"
+                    android:tag="binding_6"                                                                    
+                                                                                          
+                    tools:text="× 3" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:tag="binding_7"                                                       
+                android:background="@color/line_divide_normal" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:tag="binding_8"                                                       
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="#777777"
+                    android:textSize="10sp"
+                    android:tag="binding_9"                   
+                                                                        
+                                                                    
+                    tools:text="参与折上折" />
+
+                <TextView
+                    android:id="@+id/total_money_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:tag="binding_10"                                                        
+                    android:textColor="@color/text_money"
+                    android:textSize="13sp"
+                                                                    
+                    tools:text="总价：￥150" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/dash_line"
+            android:layerType="software" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="binding_11"                                                      
+            android:src="@mipmap/zengsong" />
+
+    </RelativeLayout>
+
+         

@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:35
+-keep class ys.app.petproject.AppApplication { <init>(...); }
+

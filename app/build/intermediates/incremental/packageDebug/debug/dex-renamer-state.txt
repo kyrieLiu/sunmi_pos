@@ -1,0 +1,7 @@
+#Thu Aug 02 19:43:57 CST 2018
+base.0=F\:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=F\:\\pet\\pos_sunmi\\sunmi_pos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1

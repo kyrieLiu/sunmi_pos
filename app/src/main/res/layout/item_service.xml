@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="ItemServiceBinding">
+
+        <import type="android.view.View" />
+
+        <import type="ys.app.petproject.utils.AppUtil" />
+
+        <variable
+            name="itemViewModel"
+            type="ys.app.petproject.viewmodel.ServiceItemViewModel" />
+    </data>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:clipChildren="true"
+            android:orientation="vertical">
+
+            <ys.app.petproject.widget.RotateTextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:text="@{itemViewModel.model.promotionType==2?@string/lijian:AppUtil.discountShow(itemViewModel.model.promotionNum)+@string/zhe}"
+                android:textColor="#0e932e"
+                android:textSize="@dimen/sp_5"
+                android:visibility="@{itemViewModel.model.isPromotion==1?View.VISIBLE:View.GONE}" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/xiexian"
+                android:visibility="@{itemViewModel.model.isPromotion==1?View.VISIBLE:View.GONE}" />
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="@{itemViewModel.model.name}"
+                    android:textColor="@color/text_dark"
+                    android:textSize="@dimen/sp_6_5"
+                    tools:text="商品名称" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text='@{@string/zkh+itemViewModel.model.typeName+@string/ykh}'
+                    android:textColor="@color/text_dark"
+                    android:textSize="@dimen/sp_6_5"
+                    android:visibility="gone"
+                    tools:text="(活体)" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/ll1">
+
+                <RelativeLayout
+                    android:id="@+id/rl2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:visibility="@{itemViewModel.model.isPromotion == 1 ? View.VISIBLE:View.GONE}">
+
+                    <TextView
+                        android:id="@+id/danwei"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="折扣价:"
+                        android:textColor="@color/text_money"
+                        android:layout_centerVertical="true"
+                        android:textSize="@dimen/sp_6_5" />
+
+                    <TextView
+                        android:id="@+id/jine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/danwei"
+                        android:text="@{@string/rmb+itemViewModel.model.promotionAmt}"
+                        android:textColor="@color/text_money"
+                        android:textSize="@dimen/sp_8"
+                        tools:text="30.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/shape_select_fold"
+                        android:gravity="center"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:text="折上折"
+                        android:textColor="@color/color_main"
+                        android:layout_toRightOf="@+id/jine"
+                        android:visibility="@{itemViewModel.model.isFold == 1 ? View.VISIBLE:View.GONE}"
+                        android:textSize="@dimen/sp_5" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/rl2">
+
+                    <TextView
+                        android:id="@+id/vip_price_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="会员价:"
+                        android:textColor="@color/text_money"
+                        android:layout_centerVertical="true"
+                        android:textSize="@dimen/sp_6_5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:text='@{@string/rmb+itemViewModel.model.vipAmt}'
+                        android:textColor="@color/text_money"
+                        android:textSize="@dimen/sp_8"
+                        android:layout_toRightOf="@+id/vip_price_tv"
+                        tools:text="88"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/r20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/rl0"
+                    >
+
+                    <TextView
+                        android:id="@+id/primary_price_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="销售价:"
+                        android:textColor="@{itemViewModel.obRealMoneyColor}"
+                        android:layout_centerVertical="true"
+                        android:textSize="@dimen/sp_6_5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:text='@{@string/rmb+itemViewModel.model.realAmt}'
+                        android:textColor="@{itemViewModel.obRealMoneyColor}"
+                        android:textSize="@dimen/sp_6_5"
+                        android:background="@{itemViewModel.obRealMoneyBg}"
+                        android:layout_toRightOf="@+id/primary_price_tv"
+                        tools:text="88"/>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_promotion_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical"
+                android:visibility="@{itemViewModel.model.isPromotion==1?View.VISIBLE:View.GONE}"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="促销时间: "
+                    android:textSize="@dimen/sp_5"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{AppUtil.longToStandardTime(itemViewModel.model.beginTime)}"
+                    android:textSize="@dimen/sp_5"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="@dimen/sp_5"
+                    android:text="～"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="@dimen/sp_5"
+                    android:text="@{AppUtil.longToStandardTime(itemViewModel.model.endTime)}"
+                    />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/ll_promotion_time"
+                android:background="#cccccc"
+                android:visibility="@{itemViewModel.promotionSetting ? View.VISIBLE:View.GONE}" />
+
+            <TextView
+                android:id="@+id/promotion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/view"
+                android:gravity="center"
+                android:onClick="@{() -> itemViewModel.promotionClick()}"
+                android:padding="5dp"
+                android:text='@{itemViewModel.promotionSetting ? (itemViewModel.model.isPromotion==1?@string/rjrxc:@string/jrxc):@string/jrxc}'
+                android:textColor="@color/text_dark"
+                android:textSize="@dimen/sp_6_5"
+                android:visibility="@{itemViewModel.promotionSetting ? View.VISIBLE:View.GONE}"
+                tools:text="加入促销" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</layout>
